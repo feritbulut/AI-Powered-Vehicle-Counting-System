@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AracSayar.MainPage"
+             Title=""
+             BackgroundColor="#F5F7FA"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid Padding="20,40,20,30"
+          RowDefinitions="Auto,*,Auto"
+          RowSpacing="30">
+
+        <!-- Header -->
+        <Border Grid.Row="0"
+                BackgroundColor="#2C3E50"
+                Padding="0"
+                HeightRequest="70"
+                Shadow="{Shadow Brush=#40000000, Offset='0,4', Radius=12, Opacity=0.3}">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20"/>
+            </Border.StrokeShape>
+
+            <Grid>
+                <BoxView Color="#34495E"
+                         Opacity="0.3"
+                         HorizontalOptions="Start"
+                         WidthRequest="150"
+                         HeightRequest="70"
+                         CornerRadius="20,0,0,20"/> 
+
+
+                <HorizontalStackLayout HorizontalOptions="Center"
+                                       VerticalOptions="Center"
+                                       Spacing="12">
+                    <Label Text="🚗"
+                           FontSize="28"
+                           VerticalOptions="Center"/>
+                    <Label Text="Araç Sayar"
+                           TextColor="White"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Border>
+
+        <VerticalStackLayout Grid.Row="1"
+                             VerticalOptions="Center"
+                             Spacing="35">
+
+            <Border BackgroundColor="White"
+                    Padding="40,50"
+                    Shadow="{Shadow Brush=#30000000, Offset='0,8', Radius=20, Opacity=0.25}">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="24"/>
+                </Border.StrokeShape>
+
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Toplam Araç"
+                           TextColor="#7F8C8D"
+                           FontSize="16"
+                           HorizontalOptions="Center"
+                           FontAttributes="Bold"/>
+
+                    <Label x:Name="CounterLabel"
+                           Text="0"
+                           FontSize="72"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#2C3E50">
+                        <Label.Shadow>
+                            <Shadow Brush="#203E5E50"
+                                    Offset="0,2"
+                                    Radius="4"
+                                    Opacity="0.3"/>
+                        </Label.Shadow>
+                    </Label>
+
+                    <BoxView HeightRequest="4"
+                             WidthRequest="60"
+                             BackgroundColor="#3498DB"
+                             HorizontalOptions="Center"
+                             CornerRadius="2"
+                             Margin="0,10,0,0"/>
+                </VerticalStackLayout>
+            </Border>
+
+            <VerticalStackLayout Spacing="16">
+
+                <Button x:Name="StartStopButton"
+                        Text="Ölçümü Başlat"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        TextColor="White"
+                        BackgroundColor="#27AE60"
+                        HeightRequest="60"
+                        CornerRadius="16"
+                        Clicked="OnStartMeasurementClicked">
+                    <Button.Shadow>
+                        <Shadow Brush="#4027AE60"
+                                Offset="0,4"
+                                Radius="12"
+                                Opacity="0.4"/>
+                    </Button.Shadow>
+                </Button>
+
+                <Button Text="📊 Ölçümleri Gör"
+                        FontSize="17"
+                        FontAttributes="Bold"
+                        TextColor="#2C3E50"
+                        BackgroundColor="White"
+                        HeightRequest="56"
+                        CornerRadius="16"
+                        BorderColor="#E0E6ED"
+                        BorderWidth="2"
+                        Clicked="OnShowMeasurementsClicked">
+                    <Button.Shadow>
+                        <Shadow Brush="#20000000"
+                                Offset="0,2"
+                                Radius="8"
+                                Opacity="0.15"/>
+                    </Button.Shadow>
+                </Button>
+                
+            </VerticalStackLayout>
+            
+        </VerticalStackLayout>
+
+    </Grid>
+</ContentPage>
