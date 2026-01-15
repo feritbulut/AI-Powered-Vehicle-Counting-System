@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AracSayar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+63e152b3891b7097cb14aeed5039a6eebd7e34ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("AracSayar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AracSayar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

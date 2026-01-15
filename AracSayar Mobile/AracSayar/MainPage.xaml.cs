@@ -15,12 +15,15 @@ namespace AracSayar
         private readonly List<MeasurementResult> _measurements = new();
 
         private const string ApiUrl = "https://ai-vehicle-detection-backend-api.onrender.com/api/stats";
+
+        // Page constructor
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private async void OnStartMeasurementClicked(object sender,EventArgs e)
+        // Starts or stops the measurement
+        private async void OnStartMeasurementClicked(object sender, EventArgs e)
         {
             if (!_isMeasuring)
             {
@@ -72,12 +75,12 @@ namespace AracSayar
                     $"Süre: {result.DurationMinutes:F2} dk\n" +
                     $"Araç Sayısı: {result.VehicleCount}",
                     "Tamam");
-
             }
         }
 
         private CancellationTokenSource _cts;
 
+        // Starts periodic counter update
         private async void StartPolling()
         {
             _cts = new CancellationTokenSource();
@@ -91,20 +94,10 @@ namespace AracSayar
             }
             catch (OperationCanceledException)
             {
-                
             }
         }
 
-
-        //private void StartPolling()
-        //{
-        //    Device.StartTimer(TimeSpan.FromSeconds(1), () =>
-        //    {
-        //        _ = UpdateCounterAsync();
-        //        return _isMeasuring;
-        //    });
-        //}
-
+        // Updates vehicle counter value
         private async Task UpdateCounterAsync()
         {
             var currentTotal = await GetTotalVehiclesAsync();
@@ -125,7 +118,7 @@ namespace AracSayar
             });
         }
 
-
+        // Gets total vehicle count from API
         private async Task<int?> GetTotalVehiclesAsync()
         {
             try
@@ -145,12 +138,10 @@ namespace AracSayar
             }
         }
 
+        // Opens measurements list page
         private async void OnShowMeasurementsClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MeasurementsPage());
         }
-
-
     }
-
 }

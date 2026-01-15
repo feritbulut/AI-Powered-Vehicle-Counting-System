@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DkWwDNLIFCE=",
+  "dgSpecHash": "fWq8Dg46ZSo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arif\\Desktop\\AracSayar\\AracSayar\\AracSayar.csproj",
+  "projectFilePath": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\AracSayar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arif\\.nuget\\packages\\googlegson\\2.13.0.1\\googlegson.2.13.0.1.nupkg.sha512",
     "C:\\Users\\Arif\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.9\\microsoft.extensions.configuration.9.0.9.nupkg.sha512",

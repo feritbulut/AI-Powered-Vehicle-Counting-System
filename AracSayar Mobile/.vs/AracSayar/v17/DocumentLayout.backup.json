@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Arif\\Desktop\\AracSayar\\",
+  "WorkspaceRootPath": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|c:\\users\\arif\\desktop\\aracsayar\\aracsayar\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|c:\\users\\arif\\documents\\github\\ai-powered-vehicle-counting-system\\aracsayar mobile\\aracsayar\\measurementspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|solutionrelative:aracsayar\\measurementspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|c:\\users\\arif\\documents\\github\\ai-powered-vehicle-counting-system\\aracsayar mobile\\aracsayar\\measurementspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|solutionrelative:aracsayar\\measurementspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|c:\\users\\arif\\documents\\github\\ai-powered-vehicle-counting-system\\aracsayar mobile\\aracsayar\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|solutionrelative:aracsayar\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|c:\\users\\arif\\documents\\github\\ai-powered-vehicle-counting-system\\aracsayar mobile\\aracsayar\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C528DEC8-88FA-4C6B-BF38-49E34FC4C24D}|AracSayar\\AracSayar.csproj|solutionrelative:aracsayar\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -23,12 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MeasurementsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\MeasurementsPage.xaml",
+              "RelativeDocumentMoniker": "AracSayar\\MeasurementsPage.xaml",
+              "ToolTip": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\MeasurementsPage.xaml",
+              "RelativeToolTip": "AracSayar\\MeasurementsPage.xaml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAiwMIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-14T18:27:10.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeasurementsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\MeasurementsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AracSayar\\MeasurementsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\MeasurementsPage.xaml.cs",
+              "RelativeToolTip": "AracSayar\\MeasurementsPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T18:27:09.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AracSayar\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\MainPage.xaml.cs",
+              "RelativeToolTip": "AracSayar\\MainPage.xaml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAzwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T16:47:47.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Arif\\Desktop\\AracSayar\\AracSayar\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\MainPage.xaml",
               "RelativeDocumentMoniker": "AracSayar\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Arif\\Desktop\\AracSayar\\AracSayar\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\MainPage.xaml",
               "RelativeToolTip": "AracSayar\\MainPage.xaml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwIEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-30T18:28:24.964Z",
               "EditorCaption": ""

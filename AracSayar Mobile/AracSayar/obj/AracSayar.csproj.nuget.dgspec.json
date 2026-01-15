@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arif\\Desktop\\AracSayar\\AracSayar\\AracSayar.csproj": {}
+    "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\AracSayar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arif\\Desktop\\AracSayar\\AracSayar\\AracSayar.csproj": {
+    "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\AracSayar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arif\\Desktop\\AracSayar\\AracSayar\\AracSayar.csproj",
+        "projectUniqueName": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\AracSayar.csproj",
         "projectName": "AracSayar",
-        "projectPath": "C:\\Users\\Arif\\Desktop\\AracSayar\\AracSayar\\AracSayar.csproj",
+        "projectPath": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\AracSayar.csproj",
         "packagesPath": "C:\\Users\\Arif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arif\\Desktop\\AracSayar\\AracSayar\\obj\\",
+        "outputPath": "C:\\Users\\Arif\\Documents\\GitHub\\AI-Powered-Vehicle-Counting-System\\AracSayar Mobile\\AracSayar\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

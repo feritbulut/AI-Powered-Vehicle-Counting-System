@@ -4,11 +4,13 @@ namespace AracSayar;
 
 public partial class MeasurementsPage : ContentPage
 {
-	public MeasurementsPage()
-	{
+    // Page constructor
+    public MeasurementsPage()
+    {
         InitializeComponent();
     }
 
+    // Loads measurements when page appears
     protected override async void OnAppearing()
     {
         base.OnAppearing();
@@ -17,6 +19,7 @@ public partial class MeasurementsPage : ContentPage
         BindingContext = measurements;
     }
 
+    // Deletes selected measurement
     private async void OnDeleteInvoked(object sender, EventArgs e)
     {
         var swipeItem = sender as SwipeItem;
@@ -39,5 +42,4 @@ public partial class MeasurementsPage : ContentPage
         var measurements = await App.Database.GetMeasurementsAsync();
         BindingContext = measurements;
     }
-
 }
